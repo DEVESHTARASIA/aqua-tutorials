@@ -31,7 +31,7 @@ datapoints, class_to_label = split_dataset_to_data_and_labels(test_input)
 params = {
     'problem': {'name': 'svm_classification', 'random_seed': 10598},
     'algorithm': {'name': 'QSVM.Variational', 'override_SPSA_params': True},
-    'backend': {'name': 'local_qasm_simulator', 'shots': 1024},
+    'backend': {'name': 'qasm_simulator', 'shots': 1024},
     'optimizer': {'name': 'SPSA', 'max_trials': 200, 'save_steps': 1},
     'variational_form': {'name': 'RYRZ', 'depth': 3},
     'feature_map': {'name': 'SecondOrderExpansion', 'depth': 2}

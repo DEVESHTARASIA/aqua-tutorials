@@ -1,6 +1,6 @@
 &name
 H2 molecule experiment. This configuration shows what might be used on a near-term real device.
-The device (backend) has been set to local_qasm_simulator so it can be run. On a real device
+The device (backend) has been set to qasm_simulator so it can be run. On a real device
 the Qconfig.py would need to be set with token etc. This experiment will make many evaluations
 on the device during its variational approach to finding the minimum eigenvalue of the
 Hamiltonian, i.e. the ground state energy.
@@ -41,6 +41,6 @@ Hamiltonian, i.e. the ground state energy.
 &end
 
 &backend
-   name=local_qasm_simulator
+   name=qasm_simulator
    shots=1024
 &end

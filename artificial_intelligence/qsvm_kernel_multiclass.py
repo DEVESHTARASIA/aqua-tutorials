@@ -34,7 +34,7 @@ params = {
             'algorithm': {
                 'name': 'QSVM.Kernel',
             },
-            'backend': {'name': 'local_qasm_simulator_cpp', 'shots': 1024},
+            'backend': {'name': 'qasm_simulator_cpp', 'shots': 1024},
             # 'multiclass_extension': {'name': 'OneAgainstRest'},
             'multiclass_extension': {'name': 'AllPairs'},
             # 'multiclass_extension': {'name': 'ErrorCorrectingCode', 'code_size': 5},

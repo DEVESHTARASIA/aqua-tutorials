@@ -49,7 +49,7 @@
 &end
 
 &backend
-   name=local_qasm_simulator
+   name=qasm_simulator
    shots=100
    skip_transpiler=False
    noise_params=None

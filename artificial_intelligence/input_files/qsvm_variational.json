@@ -4,7 +4,7 @@
         "circuit_depth": 3
     },
     "problem": {"name": "svm_classification"},
-    "backend": {"name": "local_qasm_simulator", "shots": 1000},
+    "backend": {"name": "qasm_simulator", "shots": 1000},
     "optimizer": {"name": "SPSA", "max_trials": 100, "save_steps": 10},
     "input": {
         "name": "SVMInput",

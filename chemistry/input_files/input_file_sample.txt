@@ -100,5 +100,5 @@ driver installation requirements this will use the HDF5 file driver.
 # documentation for more information
 #
 &backend
-   name=local_statevector_simulator
+   name=statevector_simulator
 &end

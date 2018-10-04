@@ -32,7 +32,7 @@ params = {
     'algorithm': {
         'name': 'QSVM.Kernel'
     },
-    'backend': {'name': 'local_qasm_simulator', 'shots': 1024},
+    'backend': {'name': 'qasm_simulator', 'shots': 1024},
     'feature_map': {'name': 'SecondOrderExpansion', 'depth': 2, 'entanglement': 'linear'}
 }
 

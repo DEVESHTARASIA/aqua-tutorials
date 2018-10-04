@@ -34,5 +34,5 @@ PyQuante H2 experiment
 &end
 
 &backend
-   name=local_statevector_simulator
+   name=statevector_simulator
 &end
