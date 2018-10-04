@@ -35,7 +35,7 @@ params = {
     'algorithm': {'name': 'VQE'},
     'optimizer': {'name': 'SPSA'},
     'variational_form': {'name': 'RY', 'depth': 5},
-    'backend': {'name': 'local_qasm_simulator'}
+    'backend': {'name': 'qasm_simulator'}
 }
 result = run_algorithm(params, algo_input)
 print(result['energy'])

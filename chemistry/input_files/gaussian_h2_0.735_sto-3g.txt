@@ -38,5 +38,5 @@ H   0.0  0.0  0.3675
 &end
 
 &backend
-   name=local_statevector_simulator
+   name=statevector_simulator
 &end

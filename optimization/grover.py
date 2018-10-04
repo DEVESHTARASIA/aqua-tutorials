@@ -32,7 +32,7 @@ params = {
     'problem': {'name': 'search'},
     'algorithm': {'name': 'Grover'},
     'oracle': {'name': 'SAT', 'cnf': sat_cnf},
-    'backend': {'name': 'local_qasm_simulator'}
+    'backend': {'name': 'qasm_simulator'}
 }
 
 result = run_algorithm(params)
