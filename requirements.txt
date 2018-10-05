@@ -1,6 +1,6 @@
-qiskit-aqua>=0.2.0
-qiskit-aqua-chemistry>=0.2.0
-scipy>=0.19,<1.2
-numpy>=1.13,<1.15
+qiskit-aqua>=0.3.0
+qiskit-aqua-chemistry>=0.3.0
+scipy>=0.19,!=0.19.1
+numpy>=1.13
 scikit-learn
-matplotlib
+matplotlib>=2.1
