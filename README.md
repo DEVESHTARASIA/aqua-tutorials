@@ -1,52 +1,14 @@
 # Qiskit Aqua Tutorials
 
-Qiskit Algorithms for QUantum Applications (Qiskit Aqua) is a library of algorithms for quantum computing
-that uses [Qiskit Terra](https://qiskit.org/terra) to build out and run quantum circuits.
+In the Qiskit ecosystem, Aqua is the element that encompasses quantum algoritms and applications for Noisy Intermediate-Scale
+Quantum (NISQ) computers.  All the Aqua tutorials (algorithms, chemistry, artificial intelligence, optimization, and finance)
+have been moved to the [Qiskit-tutorial repository](https://github.com/Qiskit/qiskit-tutorial), which includes all the Qiskit
+tutorials.  You can clone the Qiskit-tutorial repository to access all the Qiskit tutorials and/or contribute new tutorials.
 
-## Installation and Setup
+## Featured Tutorials
+A few noteworthy Aqua notebooks are available as
+[Qiskit Notebooks](https://github.com/Qiskit/qiskit-tutorial/tree/master/qiskit/aqua).
 
-Please refer to this [installation](INSTALL.md) for installing and setting up Aqua tutorials on
-your own machine.
-
-## Contents 
-
-Aqua provides a library of cross-domain algorithms upon which domain-specific applications and stacks can be
-built. Tutorials, sample code and sample input files may be found here for:
-
-* [Aqua](aqua) 
-* [Aqua Chemistry](chemistry) 
-* [Aqua Optimization](optimization) 
-* [Aqua Artificial Intelligence](artificial_intelligence)
-
-More information may be found the [main index notebook](index.ipynb).
-
-## Contributing
-
-**If you'd like to contribute to the Aqua Tutorials, please take a look at our**
-[contribution guidelines](.github/CONTRIBUTING.rst).
-
-There are a number of ways to get involved:
-
-#### Issues
- 
-Issues can be reported with GitHub [issue reporting](https://github.com/Qiskit/aqua-tutorials/issues) for this
-repository. Select `New issue`, fill in a descriptive title, and provide as much detail as is needed for the issue
-to be reproduced.
-
-#### Notebooks
-
-If you would like to contribute a notebook, please create a [fork](https://help.github.com/articles/fork-a-repo/) 
-of the repository from the `master` branch and create a
- [pull request](https://help.github.com/articles/about-pull-requests/) for your change.
-
-
-## Authors
-
-Aqua was inspired, authored and brought about by the collective work of a team of researchers.
-
-Aqua continues now to grow with the help and work of [many people](./CONTRIBUTORS.md), who contribute
-to the project at different levels.
-
-## License
-
-This project uses the [Apache License Version 2.0 software license](https://www.apache.org/licenses/LICENSE-2.0).
+## Additional Tutorials
+A large number of Aqua notebooks containing more examples on how to use and/or contribute quantum algorithms and applications
+are available as [Community Notebooks](https://github.com/Qiskit/qiskit-tutorial/tree/master/community/aqua).
